@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "http://sreetunks.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-console 
+remote_theme: jekyll-theme-console 
 plugins:
   - jekyll-feed
 
