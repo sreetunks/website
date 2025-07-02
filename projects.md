@@ -31,7 +31,6 @@ Salvager was my Capstone project at Full Sail Univerity where I developed Custom
 <video width="600" height="337.5" controls>
 <source src="https://github.com/sreetunks/website/raw/refs/heads/main/assets/projects/Space_Dasher_Preview.mp4" type="video/mp4">
 </video>
-<iframe width="600" height="337.5" src="https://www.youtube.com/embed/At0d2aB6zYA?rel=0;autoplay=0;modestbranding=1;fs=0" title="Space Dasher by Yell Games" frameborder="0" allow="accelerometer; encrypted-media; gyroscope"></iframe>
 </div>
 {% endraw %}
 Space Dasher was a Side-scrolling Shoot ‘em up written in C++ using Vulkan, [FLECS](https://github.com/SanderMertens/flecs) and [Gateware](https://gitlab.com/gateware-development/gateware), a middleware API provided as part of the class, at Full Sail for my Game Development Bachelor's Degree Program as part of a team of four over the course of a month. I was the Graphics Programmer for the team and was solely responsible for writing all of the Rendering Logic from scratch and integrating it with other systems that used the FLECS ECS API.
