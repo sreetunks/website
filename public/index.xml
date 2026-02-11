@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Sreenath Premkumar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Sreenath Premkumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connected Games #1 - Research</title>
+      <link>http://localhost:1313/posts/2026-02-10-connected-games-1/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-10-connected-games-1/</guid>
+      <description>&lt;p&gt;This is a post in a series of devlogs I&amp;rsquo;ll be doing for a Multiplayer Game project I&amp;rsquo;m working on as part of my Master&amp;rsquo;s Program at Kingston University. In this post, we&amp;rsquo;ll cover some initial planning done towards implementing a Dedicated Server Architecture using Unreal Engine and Agones for Server Orchestration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you asked Blur for Design Advice...</title>
+      <link>http://localhost:1313/posts/21-05-11-dont-listen-to-blur/</link>
+      <pubDate>Tue, 11 May 2021 23:00:59 +0530</pubDate>
+      <guid>http://localhost:1313/posts/21-05-11-dont-listen-to-blur/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s no one to blame here but you. I know this. You know this. Blur knows this. Why&amp;rsquo;d you do it?&lt;/p&gt;&#xA;&lt;p&gt;So you have a Design Dillemma. Maybe you&amp;rsquo;re creating new characters for an old, forgotten game and you don&amp;rsquo;t have friends who play this game. Maybe you like Melee combat in Video Games but you can&amp;rsquo;t find like-minded individuals to share this interest with and delve into the cling-clang in their screens. Or maybe you&amp;rsquo;re just stupid.&#xA;Speaking of stupid, you have what you think, falsely (oh so very falsely), is a very bright idea. Perhaps the brightest of your generation. You decide to ask Blur for design advice. Now, I&amp;rsquo;m not gonna put you on the spot but you&amp;rsquo;re here reading this because you asked Blur and you now know the result.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting up a Static Site with Jekyll</title>
+      <link>http://localhost:1313/posts/2020-06-19-setting-up-jekyll/</link>
+      <pubDate>Fri, 19 Jun 2020 23:40:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2020-06-19-setting-up-jekyll/</guid>
+      <description>&lt;p&gt;Since this is the first post since moving the site to use Jekyll, I&amp;rsquo;ll talk a little about the decision and some alternatives.&lt;/p&gt;&#xA;&lt;p&gt;Recently a lot of people I know have been writing blog posts or setting up personal websites to do Game Design related writeups. A lot of them use popular WYSIWIG webpage creators like Wix or something like WordPress to set up their websites.&#xA;I&amp;rsquo;d been thinking of doing the same for a while but I&amp;rsquo;d never find the time to extend my website. But now I&amp;rsquo;ve finally moved my personal blog from a shared hosting provider to Azure and also started using Jekyll to generate my website for me.&#xA;A post on deciding to go with Jekyll and also mentioning some other similar tools and services that I didn&amp;rsquo;t end up using seemed like a good place to start.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;My name is Sreenath but on the internet I mostly go by &lt;code&gt;sreetunks&lt;/code&gt; or a derivative of it.&lt;/p&gt;&#xA;&lt;p&gt;I was trained as a Game Designer with a focus on Project Management and Game Production Management and I&amp;rsquo;m a self-taught programmer. I&amp;rsquo;ve worked in student teams fulfilling the roles of Game Designer, Programmer and Project Manager and I&amp;rsquo;ve previously worked as a Junior Games Programmer at &lt;a href=&#34;https://photontadpole.com&#34;&gt;Photon Tadpole Studios&lt;/a&gt;, mainly dealing with Games targeting the Android and iOS platforms using the Unity Game Engine. I&amp;rsquo;m a graduate of the Game Development Program at &lt;a href=&#34;https://fullsail.edu&#34;&gt;Full Sail University&lt;/a&gt; and I&amp;rsquo;m currently pursuing a Masters&amp;rsquo; Degree in the same at &lt;a href=&#34;https://kingston.ac.uk&#34;&gt;Kingston University&lt;/a&gt;. I&amp;rsquo;ve worked with proprietary engines like Unity, Unreal Engine 4 and also with Frameworks like SDL and MonoGame.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h2 id=&#34;games&#34;&gt;&#xA;  Games&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;salvager-2023&#34;&gt;&#xA;  &lt;!-- raw HTML omitted --&gt;Salvager (2023)&lt;!-- raw HTML omitted --&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Salvager was my Capstone project at Full Sail Univerity where I developed Custom Engine Technology and Tooling to implement a simple ARPG game as a solo developer over the couse of 4 months. Most of the technology used was developed from scratch excluding the use of FBX SDK to import mesh assets and &lt;a href=&#34;https://github.com/Immediate-Mode-UI/Nuklear&#34;&gt;Nuklear&lt;/a&gt; to handle User Interfaces.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

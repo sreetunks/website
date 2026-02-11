@@ -1,0 +1,14 @@
+baseURL = 'https://sreetunks.in/'
+languageCode = 'en-us'
+title = 'Sreenath Premkumar'
+theme = 'hugo-trainsh'
+
+[params]
+mainSections = ["posts"]
+
+[params.social]
+email = 'contact@sreetunks.in'
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

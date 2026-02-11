@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sreenath Premkumar</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Sreenath Premkumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects/</guid>
+      <description>&lt;h1 id=&#34;games&#34;&gt;&#xA;  GAMES&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;salvager-2023&#34;&gt;&#xA;  &lt;!-- raw HTML omitted --&gt;Salvager (2023)&lt;!-- raw HTML omitted --&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Salvager was my Capstone project at Full Sail Univerity where I developed Custom Engine Technology and Tooling to implement a simple ARPG game as a solo developer over the couse of 4 months. Most of the technology used was developed from scratch excluding the use of FBX SDK to import mesh assets and &lt;a href=&#34;https://github.com/Immediate-Mode-UI/Nuklear&#34;&gt;Nuklear&lt;/a&gt; to handle User Interfaces.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

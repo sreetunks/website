@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sreenath Premkumar</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Sreenath Premkumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connected Games #1 - Research</title>
+      <link>http://localhost:1313/posts/2026-02-10-connected-games-1/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-10-connected-games-1/</guid>
+      <description>&lt;p&gt;This is a post in a series of devlogs I&amp;rsquo;ll be doing for a Multiplayer Game project I&amp;rsquo;m working on as part of my Master&amp;rsquo;s Program at Kingston University. In this post, we&amp;rsquo;ll cover some initial planning done towards implementing a Dedicated Server Architecture using Unreal Engine and Agones for Server Orchestration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you asked Blur for Design Advice...</title>
+      <link>http://localhost:1313/posts/21-05-11-dont-listen-to-blur/</link>
+      <pubDate>Tue, 11 May 2021 23:00:59 +0530</pubDate>
+      <guid>http://localhost:1313/posts/21-05-11-dont-listen-to-blur/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s no one to blame here but you. I know this. You know this. Blur knows this. Why&amp;rsquo;d you do it?&lt;/p&gt;&#xA;&lt;p&gt;So you have a Design Dillemma. Maybe you&amp;rsquo;re creating new characters for an old, forgotten game and you don&amp;rsquo;t have friends who play this game. Maybe you like Melee combat in Video Games but you can&amp;rsquo;t find like-minded individuals to share this interest with and delve into the cling-clang in their screens. Or maybe you&amp;rsquo;re just stupid.&#xA;Speaking of stupid, you have what you think, falsely (oh so very falsely), is a very bright idea. Perhaps the brightest of your generation. You decide to ask Blur for design advice. Now, I&amp;rsquo;m not gonna put you on the spot but you&amp;rsquo;re here reading this because you asked Blur and you now know the result.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting up a Static Site with Jekyll</title>
+      <link>http://localhost:1313/posts/2020-06-19-setting-up-jekyll/</link>
+      <pubDate>Fri, 19 Jun 2020 23:40:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2020-06-19-setting-up-jekyll/</guid>
+      <description>&lt;p&gt;Since this is the first post since moving the site to use Jekyll, I&amp;rsquo;ll talk a little about the decision and some alternatives.&lt;/p&gt;&#xA;&lt;p&gt;Recently a lot of people I know have been writing blog posts or setting up personal websites to do Game Design related writeups. A lot of them use popular WYSIWIG webpage creators like Wix or something like WordPress to set up their websites.&#xA;I&amp;rsquo;d been thinking of doing the same for a while but I&amp;rsquo;d never find the time to extend my website. But now I&amp;rsquo;ve finally moved my personal blog from a shared hosting provider to Azure and also started using Jekyll to generate my website for me.&#xA;A post on deciding to go with Jekyll and also mentioning some other similar tools and services that I didn&amp;rsquo;t end up using seemed like a good place to start.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

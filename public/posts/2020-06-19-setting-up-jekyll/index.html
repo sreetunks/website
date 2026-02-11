@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<title>Setting up a Static Site with Jekyll | Sreenath Premkumar</title>
+
+<link rel="stylesheet" href="/css/style.ef6d7d6ac41839d1c0c9254fffd16c9a1ecedfb8c53e55a1b10b6315d93a0838.css">
+      <script defer src="/js/main.e21945b0f811d7f131bce8fd29e9eff2dc37f80b261f6bbb645e0ad2f4f10ff5.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="site-header">
+  <a class="title" href="/">
+    <h1>Sreenath Premkumar</h1>
+  </a>
+
+  <nav class="site-nav">
+    
+    <a href="/about/">About Me</a>
+    
+     <a href="/blog/">Blog</a>
+    
+     <a href="/projects/">Projects</a>
+    
+    <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </svg>
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+  </nav>
+</div>
+
+  </header>
+  <main>
+    <article class="post"><header class="post-header">
+    <h1 class="post-title">Setting up a Static Site with Jekyll</h1>
+    <p class="post-meta">
+      <time datetime="2020-06-19">
+        19 Jun, 2020
+      </time>
+    </p>
+  </header><div class="post-content">
+    <p>Since this is the first post since moving the site to use Jekyll, I&rsquo;ll talk a little about the decision and some alternatives.</p>
+<p>Recently a lot of people I know have been writing blog posts or setting up personal websites to do Game Design related writeups. A lot of them use popular WYSIWIG webpage creators like Wix or something like WordPress to set up their websites.
+I&rsquo;d been thinking of doing the same for a while but I&rsquo;d never find the time to extend my website. But now I&rsquo;ve finally moved my personal blog from a shared hosting provider to Azure and also started using Jekyll to generate my website for me.
+A post on deciding to go with Jekyll and also mentioning some other similar tools and services that I didn&rsquo;t end up using seemed like a good place to start.</p>
+<h2 id="static-site-generators">
+  Static Site Generators
+</h2>
+<hr>
+<p>Working with CSS is something I really don&rsquo;t enjoy. So when I was thinking of making a personal blog, I knew I had to find some way to avoid handling all the web page styling myself. I also wanted to commit myself to write frequent posts which would mean adding new HTML files, ensuring all the pages are connected and linked and that they share a consistent layout with each other. So I looked for tools other people were using these days to manage their blogs and found out about Static Site Generators.
+Static Site Generators, in a simple sense, are parsers. They take lightly formatted text files as input and create full-fledged websites according to templates you specify with consistent theming and good page navigation. A lot of them use Markdown files and simple templating languages that allow you customize the layouts and theme of the generated webpages.
+Adding a new post to the blog is done by creating a new Markdown file. The pages are automatically linked and themed and can also be automatically indexed in a &lsquo;Recent Posts&rsquo; or &lsquo;Table of Contents&rsquo; format.</p>
+<p>Some popular Static Site Generators are:</p>
+<ul>
+<li><a href="https://jekyllrb.com/">Jekyll</a>: Used by GitHub Pages as well. Uses Liquid for templating and Ruby Gems to generate the site.</li>
+<li><a href="https://gohugo.io">Hugo</a>: Boasts very fast site build times, letting you instantly preview and iterate on your website&rsquo;s design. Uses Go for templating.</li>
+</ul>
+<p>I decided to go with Jekyll since I already had a local Ruby environment set up. Jekyll targets blogs in particular with a lot more functionality geared towards maintaining a site with many articles and pages.</p>
+<h2 id="hosting-services">
+  Hosting Services
+</h2>
+<hr>
+<p>There are quite a few options to host a Static Site for cheap in 2020. My final decision was to use Azure since I was already using some of their other services but I&rsquo;ll go over some of the other options I considered as well.</p>
+<h3 id="shared-hosting-providers">
+  <!-- raw HTML omitted -->Shared hosting providers<!-- raw HTML omitted -->
+</h3>
+<p>Before using Jekyll, I&rsquo;d already had a single-page portfolio website that I had up and running. I was using a Shared hosting solution with a cPanel interface. For solutions like this, depending on your provider, you can either set up an FTP upload which copies the web page files generated on your computer to the server or set up a Git repository to which you can push the generated files.</p>
+<h3 id="cloud-based-storage">
+  <!-- raw HTML omitted -->Cloud-based storage<!-- raw HTML omitted -->
+</h3>
+<p>Cloud Platforms like Amazon, Microsoft Azure and Google CLoud Platform offer products to host Static Sites. A lot of these Platforms also have additional features like CI/CD Pipeline integration which really helps simplify the workflow for getting a new blog post out. Some of them also have free trials where they give you access to their services for up to a year.</p>
+<h3 id="github-pages">
+  <!-- raw HTML omitted -->GitHub Pages<!-- raw HTML omitted -->
+</h3>
+<p>This one, I was very surprised to hear about because it sounded way too good to be legitimate. GitHub offers, for every User/Project a <code>github.io</code> subdomain that they can use to host a webpage. The web page files are stored as a public/private GitHub repo with the only condition being that the website is not used for specific commercial purposes. Another feature of this is that it has built-in support for Jekyll, which means that instead of pushing the HTML files to the repo, you can push up your Jekyll files and the site gets built for you on GitHub&rsquo;s servers.</p>
+<h2 id="conclusion">
+  Conclusion
+</h2>
+<hr>
+<p>As I&rsquo;m typing this out, I&rsquo;m pretty sure no one&rsquo;s ever making it this far down this post. This one&rsquo;s overly technical for not a lot of good reasons and is pretty much a throwaway post for me to get used to this whole thing. If you did come this far, yikes.</p>
+<p>My next post will be the start of a series on Fighting Game Design where I explore archetypes present in contemporary fighting games and examine their canonicity and try to derive extensions from them to see if we can add something new to the popular genre.</p>
+
+  </div>
+
+  <footer class="post-footer">
+  <div class="post-footer-row"><div class="post-tags">
+        <a rel="nofollow" href="/blog/?q=pot-of-honey" style="display:none;">#potofhoney</a><a rel="nofollow" href="/blog/?q=jekyll">#jekyll</a><a rel="nofollow" href="/blog/?q=azure">#azure</a><a rel="nofollow" href="/blog/?q=static-site">#static-site</a></div></div>
+</footer>
+</article>
+
+  </main>
+  <footer>
+    <nav class="footer-links" aria-label="Social links"><a href="mailto:contact@sreetunks.in" title="Email" aria-label="Email">Email</a></nav>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      var themeToggle = document.querySelector('.theme-toggle');
+      if (themeToggle) {
+        function getEffectiveTheme() {
+          var stored = localStorage.getItem('theme');
+          if (stored) return stored;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        themeToggle.addEventListener('click', function() {
+          var current = getEffectiveTheme();
+          var next = current === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
+
+      
+      var dropdown = document.querySelector('.lang-dropdown');
+      if (dropdown) {
+        var langToggle = dropdown.querySelector('.lang-toggle');
+
+        langToggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          dropdown.classList.toggle('open');
+          langToggle.setAttribute('aria-expanded', dropdown.classList.contains('open'));
+        });
+
+        document.addEventListener('click', function(e) {
+          if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+            langToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+    });
+  </script></body>
+</html>

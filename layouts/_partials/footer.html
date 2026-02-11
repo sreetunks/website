@@ -1,0 +1,32 @@
+{{- $social := site.Params.social -}}
+
+{{- /* Collect all social/subscribe links */ -}}
+{{- $links := slice -}}
+
+{{- with site.Params.subscribe.emailUrl -}}
+  {{- $links = $links | append (dict "url" . "label" (i18n "email") "icon" "mail") -}}
+{{- end -}}
+
+{{- with $social -}}
+  {{- with .github -}}
+    {{- $links = $links | append (dict "url" . "label" (i18n "social_github") "icon" "github") -}}
+  {{- end -}}
+  {{- with .x -}}
+    {{- $links = $links | append (dict "url" . "label" (i18n "social_x") "icon" "x") -}}
+  {{- end -}}
+  {{- with .linkedin -}}
+    {{- $links = $links | append (dict "url" . "label" (i18n "social_linkedin") "icon" "linkedin") -}}
+  {{- end -}}
+  {{- with .email -}}
+    {{- $href := cond (hasPrefix . "mailto:") . (printf "mailto:%s" .) -}}
+    {{- $links = $links | append (dict "url" $href "label" (i18n "email") "icon" "mail") -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $links) 0 -}}
+<nav class="footer-links" aria-label="Social links">
+  {{- range $links -}}
+    <a href="{{ .url }}" title="{{ .label }}" aria-label="{{ .label }}">{{ .label }}</a>
+  {{- end -}}
+</nav>
+{{- end -}}

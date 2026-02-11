@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<title>Projects | Sreenath Premkumar</title>
+
+<link rel="stylesheet" href="/css/style.ef6d7d6ac41839d1c0c9254fffd16c9a1ecedfb8c53e55a1b10b6315d93a0838.css">
+      <script defer src="/js/main.e21945b0f811d7f131bce8fd29e9eff2dc37f80b261f6bbb645e0ad2f4f10ff5.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="site-header">
+  <a class="title" href="/">
+    <h1>Sreenath Premkumar</h1>
+  </a>
+
+  <nav class="site-nav">
+    
+    <a href="/about/">About Me</a>
+    
+     <a href="/blog/">Blog</a>
+    
+     <a href="/projects/">Projects</a>
+    
+    <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </svg>
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+  </nav>
+</div>
+
+  </header>
+  <main>
+    <article class="post"><header class="page-header">
+    <h1 class="page-title">Projects</h1>
+  </header><div class="post-content">
+    <h2 id="games">
+  Games
+</h2>
+<h3 id="salvager-2023">
+  <!-- raw HTML omitted -->Salvager (2023)<!-- raw HTML omitted -->
+</h3>
+<p>Salvager was my Capstone project at Full Sail Univerity where I developed Custom Engine Technology and Tooling to implement a simple ARPG game as a solo developer over the couse of 4 months. Most of the technology used was developed from scratch excluding the use of FBX SDK to import mesh assets and <a href="https://github.com/Immediate-Mode-UI/Nuklear">Nuklear</a> to handle User Interfaces.</p>
+<p><figure><a href="/projects/Salvager_GameStart.png" data-pswp-width="600" data-pswp-height="338" class="lightbox-image">
+  <img src="/projects/Salvager_GameStart.png" alt="" loading="lazy">
+</a>
+</figure>
+
+
+ <figure><a href="/projects/Salvager_Combat.png" data-pswp-width="600" data-pswp-height="338" class="lightbox-image">
+  <img src="/projects/Salvager_Combat.png" alt="" loading="lazy">
+</a>
+</figure>
+
+
+</p>
+<p>Features developed for this project include:<!-- raw HTML omitted --></p>
+<ul>
+<li>Custom ECS framework using C++ Templates and Archetype grouping</li>
+<li>Tiled, Deferred Renderer with support for Directional and Point Lights</li>
+<li>Skeletal Animation System with Animation Notifys</li>
+<li>Collision Detection and Resolution</li>
+<li>AI Statemachine-based Behaviors</li>
+<li>Scene Hierarchy with Object Parenting</li>
+<li>Fully Physically Based Shaders and Materials</li>
+<li>Custom TGA and DDS file importing for Textures</li>
+<li>XAudio2 Implementation</li>
+<li>Debug Visualizations</li>
+</ul>
+<p><figure><a href="/projects/Salvager_Debug.png" data-pswp-width="600" data-pswp-height="338" class="lightbox-image">
+  <img src="/projects/Salvager_Debug.png" alt="" loading="lazy">
+</a>
+</figure>
+
+
+ <figure><a href="/projects/Salvager_FreeCam.png" data-pswp-width="600" data-pswp-height="338" class="lightbox-image">
+  <img src="/projects/Salvager_FreeCam.png" alt="" loading="lazy">
+</a>
+</figure>
+
+
+</p>
+<h3 id="space-dasher-2023">
+  <!-- raw HTML omitted -->Space Dasher (2023)<!-- raw HTML omitted -->
+</h3>
+<p>
+<div style="text-align: center;">
+<video width="600" height="337.5" controls>
+<source src="https://github.com/sreetunks/website/raw/refs/heads/mainSpace_Dasher_Preview.mp4" type="video/mp4">
+</video>
+</div>
+
+
+Space Dasher was a Side-scrolling Shoot ‘em up written in C++ using Vulkan, <a href="https://github.com/SanderMertens/flecs">FLECS</a> and <a href="https://gitlab.com/gateware-development/gateware">Gateware</a>, a middleware API provided as part of the class, at Full Sail for my Game Development Bachelor&rsquo;s Degree Program as part of a team of four over the course of a month. I was the Graphics Programmer for the team and was solely responsible for writing all of the Rendering Logic from scratch and integrating it with other systems that used the FLECS ECS API.
+As part of this project, I implemented fully instanced 3D Textured Mesh Rendering, using a helper application provided as part of the class to load mesh data from OBJ files, SDF Rendering for our UI drawing, Directional Light Shadow mapping, DDS and TGA Texture Data loading, Skyboxes and a Bloom effect. I also helped with Gameplay systems like Collision Detection, Game State transitions and implemented Debug Visualizations for Collider shapes and an Orthographic View. The final submission was very well-received and was deemed <em>“the benchmark for projects in this class moving forward”</em>.</p>
+<h3 id="codebreakers-2022">
+  <!-- raw HTML omitted -->CodeBreakers (2022)<!-- raw HTML omitted -->
+</h3>
+<p>
+<div style="text-align: center;">
+<video width="600" height="337.5" controls>
+<source src="https://github.com/sreetunks/website/raw/refs/heads/mainCode_Breakers_Preview.mp4" type="video/mp4">
+</video>
+</div>
+
+
+CodeBreakers was the mid-term project for my Game Development Bachelor&rsquo;s Degree Program. It is a Top-down Turn-based Tactics Game made in Unity3D with a team of 4 Programmers within a span of 3 weeks.
+I worked on architecting the Grid System for the Game, the Turn Order system, and a Framework for implementing various Unit Abilities and AI Controllers. I also created a shader to render the Grid with a single Quad and augmented the URP Renderer with a custom Grid Rendering Feature and Stencil Testing Features.</p>
+
+<div style="text-align: center;">
+<iframe height="181.5" frameborder="0" src="https://itch.io/embed/1697301" width="600"><a href="https://sreetunks.itch.io/code-breakers">Code Breakers by sreetunks, Tee97, RuKira</a></iframe>
+</div>
+
+
+<h3 id="realms-of-destiny-2017">
+  <!-- raw HTML omitted -->Realms of Destiny (2017)<!-- raw HTML omitted -->
+</h3>
+
+<div style="text-align: center;">
+<iframe width="600" height="337.5" src="https://www.youtube.com/embed/h38T1eN82D0?rel=0;autoplay=0;modestbranding=1;fs=0" title="Realms of Destiny by Half-Lens" frameborder="0" allow="accelerometer; encrypted-media; gyroscope"></iframe>
+</div>
+
+
+<p>Realms of Destiny was the End of year project during my Second year at Rubika Supinfogame, Pune. It was a 2.5D Side-scroller Metroidvania game made using the Unity3D Engine by a team with 3 other Designers and 2 Artists in a duration of 6 months. I was the only Programmer and implemented Character Movement, Enemy AI and Animation State Machines. I also helped design a World zone and a few Boss Enemy Attack Phases.
+The game was presented before an academic jury and was well received for its Gameplay as well as Production Quality for it being a student project.</p>
+<h3 id="valhela-2016">
+  <!-- raw HTML omitted -->Valhela (2016)<!-- raw HTML omitted -->
+</h3>
+<p>
+<div>
+<img src="valhela_1.png">
+<img src="valhela_2.png" align="right">
+</div>
+
+
+Valhela was a tower defense game made as an End-of-Year project for my first year at Rubike Supinfogame, Pune.
+The Game was developed with a team of 4 Designers and one Game artist using the Stencyl Game Engine where I took on dual responsibilities as Game Designer and only Gameplay scripter.
+I implemented special gameplay abilities for all the towers in the game and pathfinding for the enemies that gave engaging results while remaining performant within the constraints of Stencyl. I also designed 3 levels in the game and also conceived and developed the gameplay abilities for all the Towers in the game which was a major gameplay pillar.</p>
+
+<div>
+<img src="valhela_3.png">
+<img src="valhela_4.png" align="right">
+</div>
+
+
+<h2 id="game-tools--engines">
+  Game Tools &amp; Engines
+</h2>
+<h3 id="volatile-engine">
+  <!-- raw HTML omitted -->Volatile Engine<!-- raw HTML omitted -->
+</h3>
+<p>Soon™.</p>
+
+  </div>
+
+  
+</article>
+
+  </main>
+  <footer>
+    <nav class="footer-links" aria-label="Social links"><a href="mailto:contact@sreetunks.in" title="Email" aria-label="Email">Email</a></nav>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      var themeToggle = document.querySelector('.theme-toggle');
+      if (themeToggle) {
+        function getEffectiveTheme() {
+          var stored = localStorage.getItem('theme');
+          if (stored) return stored;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        themeToggle.addEventListener('click', function() {
+          var current = getEffectiveTheme();
+          var next = current === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
+
+      
+      var dropdown = document.querySelector('.lang-dropdown');
+      if (dropdown) {
+        var langToggle = dropdown.querySelector('.lang-toggle');
+
+        langToggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          dropdown.classList.toggle('open');
+          langToggle.setAttribute('aria-expanded', dropdown.classList.contains('open'));
+        });
+
+        document.addEventListener('click', function(e) {
+          if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+            langToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+    });
+  </script></body>
+</html>
