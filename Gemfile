@@ -2,10 +2,6 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-
-gem "jekyll", "~> 4.3"
-gem "jekyll-theme-console"
+gem "github-pages"
 gem "jekyll-feed"
-
-gem "erb", "~> 4.0"
+gem "jekyll-remote-theme"
