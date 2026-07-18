@@ -4,15 +4,26 @@ menu: main
 ---
 ## Games
 
+### <u>Challenger's Playground (2026)</u>
+Challenger's Playground was built as part of a team of 3 designers and 2 programmers for the Connected Games project at Kingston University with a focus on multiplayer experiences. Upto 4 Players race against each other through a course filled with Obstacles and Computer-controlled Enemies with expressive Player movement and Special items and abilities.
+
+It was built on Unreal Engine 5.4 and had Dedicated servers deployed on the Google Cloud Platform using [Agones](https://agones.dev/) and a [Nakama](https://heroiclabs.com/nakama/) Orchestration Server handling Player Identity and Matchmaking. I handled most of the Network Orchestration and Deployment, working with the Kubernetes API in Golang and Network Architecture in Unreal Engine, extending our Nakama server through user modules in Go and writing custom Gameplay Framework base classes for Game Modes, States and Sessions. I also helped transition much of our Gameplay code to utilize Replication and RPCs to ensure Server-authority and to avoid De-sync on Clients.
+
+{{< rawhtml >}}
+<div style="text-align: center;">
+<iframe width="600" height="337.5" src="https://www.youtube.com/embed/qf4M5QN7Br4?rel=0&autoplay=0&modestbranding=1&fs=0&mute=1" title="Challengers Playground Multiplayer Session (4 players)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{{< /rawhtml >}}
+
 ### <u>Salvager (2023)</u>
-Salvager was my Capstone project at Full Sail Univerity where I developed Custom Engine Technology and Tooling to implement a simple ARPG game as a solo developer over the couse of 4 months. Most of the technology used was developed from scratch excluding the use of FBX SDK to import mesh assets and [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) to handle User Interfaces.
+Salvager was my Capstone project at Full Sail University where I developed Custom Engine Technology and Tooling to implement a simple ARPG game as a solo developer over the couse of 4 months. Most of the technology used was developed from scratch excluding the use of FBX SDK to import mesh assets and [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) to handle User Interfaces.
 
 ![](Salvager_GameStart.png) ![](Salvager_Combat.png)
 
 Features developed for this project include:<br>
  - Custom ECS framework using C++ Templates and Archetype grouping
  - Tiled, Deferred Renderer with support for Directional and Point Lights
- - Skeletal Animation System with Animation Notifys
+ - Skeletal Animation System with Animation Notifies
  - Collision Detection and Resolution
  - AI Statemachine-based Behaviors
  - Scene Hierarchy with Object Parenting
